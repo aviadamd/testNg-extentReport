@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        string name: 'platformType', trim: false, defaultValue: 'web'
+        string name: 'platformType', trim: false, defaultValue: 'chrome'
         string name: 'TEST_CLASS', trim: false, defaultValue: 'BookFlightTest'
     }
     stages {
